@@ -1,0 +1,17 @@
+.grid-container{
+	display: grid;
+	grid-template-columns: 2fr 2fr;
+	grid-auto-rows: minmax( 150px, auto);
+	grid-row-gap: 20px;
+	grid-column-gap: 10px;
+	grid-template-areas: 
+	  "header header"
+}
+
+.grid-item-1{
+	grid-area: header;
+}
+
+body {
+  background-color: #6EC0CB;
+}
